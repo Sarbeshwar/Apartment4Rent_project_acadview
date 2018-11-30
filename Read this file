@@ -6,6 +6,10 @@ two tables namely- rentin and login_signup
 
 login_signup table below--
 
+
+
+
+
 +------------------+-----------------------------+-----------+------------+---------+
 | name             | email                       | password  | mobile     | address |
 +------------------+-----------------------------+-----------+------------+---------+
@@ -14,7 +18,12 @@ login_signup table below--
 | Sarbeshwar Singh | sarbeshwarsingh93@gmail.com | 123456    | 9781037767 | Kharar  |
 +------------------+-----------------------------+-----------+------------+---------+
 
+
+
 rentin table below--
+
+
+
 
 +------------+----------+-----------------------------+---------+---------+--------+------+------------------+-------+--------+
 | firstname  | lastname | email                       | address | state   | zip    | size | specification    | rent  | tenure |
