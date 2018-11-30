@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Upload Search Prompt</title>
+<style>
+body {background-color: background;
+         font-family: Arial, Helvetica, sans-serif;}
+         form {border: 4px solid black;
+         text-align:center;
+         }
+#RI {
+    width: 20em;  height: 2em;
+}
+</style>
+</head>
+<body background ="premium_keklaguna-45.jpg" alink="cyan" vlink="cyan"\>
+<button onclick="goBack()">Go Back</button>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+<center><h1><b>Rent In Your Apartment</b></h1></center>
+<center><img src="vu-hp-takeover-desktop.jpg"></center>
+<br>
+<center><p><h2><b>Please Fill This Form</b></h2></p></center>
+<br>
+<br>
+<form>
+  Name:
+  <br>
+  <input type="text" name="firstname" value="First">
+  <input type="text" name="lastname" value="Last">
+  <br>
+  Email:
+  <br>
+  <input type="email" name="email">
+  <br>
+  Current Address:
+  <br>
+  <input type="text"> <input type="text" value="City"> <input type="text" value="Zip/Postal">
+  <br>
+  Apartment Size:
+  <br>
+  <select name="Size">
+    <option value="1BHK">1BHK</option>
+    <option value="2BHK">2BHK</option>
+    <option value="3BHK">3BHK</option>
+    <option value="4BHK">4BHK</option>
+  </select>
+  <br>
+  Renting To:
+  <br>
+  <select name="Specification">
+    <option value="Family">Family</option>
+    <option value="Students">Students</option>
+    <option value="Bachelors">Bachelors</option>
+    <option value="No Specification">No Specification</option>
+  </select>
+  <br>
+  Expecting Rent:
+  <br>
+  <input type="text">
+  <br>
+  Rental Tenure:
+  <br>
+  <input type="text">
+  <br>
+</form>
+</body>
+</html>

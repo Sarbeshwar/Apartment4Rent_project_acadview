@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Login Page</title>
+<style>
+         body {background-color: background;
+         font-family: Arial, Helvetica, sans-serif;}
+         form {border: 4px solid black;
+         text-align:center;
+         }
+         input[type=email], input[type=password] {
+         width: 60%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         display: inline-block;
+         border: 1px solid #ccc;
+         box-sizing: border-box;
+         }
+         .signin {
+         background-color:background;
+         text-align: center;
+         }
+         .imgcontainer {
+         text-align: center;
+         margin: 24px 0 12px 0;
+         }
+         img.avatar {
+         width: 15%;
+         border-radius: 50%;
+         }
+         .container {
+         padding: 70px;
+         }
+      </style>
+</head>
+<body background ="premium_keklaguna-45.jpg" alink="cyan" vlink="cyan"\>
+<button onclick="goBack()">Go Back</button>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</body>
+</html>
